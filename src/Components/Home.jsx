@@ -1,11 +1,12 @@
 import React from 'react'
 import rightimg from '../assets/rightimg.avif'
 import { MdArrowForwardIos } from "react-icons/md";
+import background from '../assets/background.avif'
 
 
 const Home = () => {
   return (
-    <div className='bg-gray-300 h-[100vh]'>
+    <div className='bg-[url("https://framerusercontent.com/images/u2krKFZQ2tG3JDbhB3FH5A6fgs.png?scale-down-to=2048")]'>
         <div className=' grid grid-cols-1 sm:grid-cols-2 container  pt-[10%] '>
             <div className=' '>
               <button className='bg-gray-400 p-3  rounded-md'>P2P EXCHANGE</button>
@@ -17,9 +18,10 @@ const Home = () => {
                       <button className='mt-[30px] flex items-center bg-blue-500 p-3 rounded-md font-semibold'>TRADE NOW <MdArrowForwardIos /></button>
             </div>
             <div>
-                <img className='h-[90%]  mt-[10%] mr-[10px] ' src={rightimg} alt="" />
+                <img className='h-[90%]  mt-[10%] mr-[10px] z-0 ' src={rightimg} alt="" />
             </div>
         </div>
+        
     </div>
   )
 }

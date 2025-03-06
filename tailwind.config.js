@@ -16,6 +16,7 @@ export default {
           DEFAULT:"1rem",
           sm:"3rem",
         },
+       
       },
     },
   },

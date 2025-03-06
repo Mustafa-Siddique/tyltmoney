@@ -9,7 +9,8 @@ import { MdPhoneAndroid } from "react-icons/md";
 
 const Payment = () => {
   return (
-    <div className='bg-green-200 mt-[100px] h-[30vh] '>
+    <div className='bg-green-200  top-[-110px]'>
+    <div className='bg-green-200  h-[30vh]  z-40 container '>
         <div className='justify-center flex pt-10 font-semibold text-[28px]'><h1>Supported Payment Methods</h1></div>
         <div>
             <div className='flex container gap-[80px] pt-[90px] '>
@@ -28,6 +29,7 @@ const Payment = () => {
 
             </div>
         </div>
+    </div>
     </div>
   )
 }
