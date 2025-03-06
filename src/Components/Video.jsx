@@ -17,7 +17,7 @@ const Video = () => {
   return (
     <div className='container grid grid-cols-1 lg:grid-cols-2'>
         <div className='py-20 '>
-            <h1 className='text-[45px] font-semibold '>How to <span className='text-green-500'> get started</span> with Tylt’s P2P Exchange</h1>
+            <h1 className='text-[30px] font-semibold py-5 md:text-[45px] lg:text-[45px] '>How to <span className='text-green-500'> get started</span> with Tylt’s P2P Exchange</h1>
             <div>
             <h1 className='flex items-center gap-6 text-lg font-semibold'><Bs1CircleFill />
             Complete Your KYC</h1>

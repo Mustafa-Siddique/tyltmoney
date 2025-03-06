@@ -8,8 +8,8 @@ const Navbar = () => {
     <div className='bg-white h-[70px]'>
      <div className='flex justify-between container'>
         <div className='flex gap-[60px]'>
-            <img className='w-[150px]  ' src={logo} alt="" />
-           <div className=' hidden md:hidden  lg;flex gap-5 p-5 font-bold text-black   '>
+            <img className='w-[150px] ' src={logo} alt="" />
+           <div className=' hidden md:hidden  lg:flex gap-5 p-5 font-bold text-black   '>
             <ul ><li><a href="">P2P Exchange</a></li></ul>
             <ul><li className='text-gray-500'><a href="">BUSINESS</a></li></ul>
             <ul><li className='text-gray-500'  ><a href="">Resources</a></li></ul>

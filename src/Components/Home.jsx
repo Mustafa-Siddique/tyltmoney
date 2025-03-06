@@ -7,11 +7,11 @@ import background from '../assets/background.avif'
 const Home = () => {
   return (
     <div className='bg-[url("https://framerusercontent.com/images/u2krKFZQ2tG3JDbhB3FH5A6fgs.png?scale-down-to=2048")]'>
-        <div className=' grid grid-cols-1 sm:grid-cols-2 container  pt-[10%] '>
+        <div className=' grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2  container  pt-[10%] '>
             <div className=' '>
               <button className='bg-gray-400 p-3  rounded-md'>P2P EXCHANGE</button>
-                <h1 className='  text-[70px] font-semibold '> <span className='text-green-600'>Buy and sell crypto</span> <br /> instantly with Tylt’s <br /> P2P Exchange</h1>
-                <p className='font-semibold text-[25px]'>Tylt’s P2P exchange allows you to buy and sell crypto securely,
+                <h1 className='  text-[35px] font-semibold md:text-[40px] lg:text-[70px] '> <span className='text-green-600'>Buy and sell crypto</span> <br /> instantly with Tylt’s  P2P Exchange</h1>
+                <p className='font-semibold text-[15px] md:text-[20px] lg:text-[25px]' >Tylt’s P2P exchange allows you to buy and sell crypto securely,
                      with low fees and multiple payment methods. Trade directly with users
                       worldwide and enjoy fast settlements on a platform built for your convenience.
                       </p>
