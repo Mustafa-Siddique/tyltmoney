@@ -5,6 +5,8 @@ import Payment from './Components/Payment'
 import Exchange from './Components/Exchange'
 import Bacdeb from './Components/Bacdeb'
 import Video from './Components/Video'
+import Buy from './Components/buy'
+import Trading from './Components/Trading'
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
       <Exchange/>
       <Bacdeb/>
       <Video/>
+      <Buy/>
+      <Trading/>
     </div>
   )
 }
