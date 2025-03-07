@@ -53,12 +53,12 @@ const Home = () => {
             </div>
             <div >
                 < motion.img 
-                initial={{opacity:0 , scale:0}} animate={{opacity:1, scale:1}}
+                initial={{opacity:0 , y:100}} animate={{opacity:1, y:0}}
                 transition={{
                   type:"spring",
                   stiffness:100,
                   damping:10,
-                  delay:0.4,
+                  delay:1.5,
                 }}
                 className='h-[90%]  mt-[10%] mr-[10px] z-0 ' src={rightimg} alt="" />
             </div>
