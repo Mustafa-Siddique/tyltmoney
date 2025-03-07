@@ -7,6 +7,7 @@ import Bacdeb from './Components/Bacdeb'
 import Video from './Components/Video'
 import Buy from './Components/buy'
 import Trading from './Components/Trading'
+import Email from './Components/Email'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Video/>
       <Buy/>
       <Trading/>
+      <Email/>
     </div>
   )
 }

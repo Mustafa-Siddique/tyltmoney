@@ -11,7 +11,7 @@ import { FaUpRightAndDownLeftFromCenter } from "react-icons/fa6";
 
 const Buy = () => {
   return (
-    <div className='bg-gray-100 py-20' >
+    <div className='bg-gray-100 py-20 mb-20' >
         <div className='grid grid-cols-1 lg:grid-cols-2 container'>
            <div className=' '>
              <h1 className='text-[28px] font-semibold lg:text-[40px] font-bold ' > Want to create offers on Tylt ? Become a <span className='text-green-500'>Supplier</span> today!</h1>
