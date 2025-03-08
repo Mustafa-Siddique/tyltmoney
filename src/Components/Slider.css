@@ -18,7 +18,7 @@
 
 .slide-cantainer{
     display: flex;
-    width: calc(250px *18);
+    width: calc(200px *18);
     animation: scroll 20s linear infinite;
     margin-bottom: 40px;
 
@@ -29,17 +29,18 @@
         transform: translateX(0);
     }
     100%{
-        transform: translateX(calc(-250px*7));
+        transform: translateX(calc(-200px*7));
     }
     
 }
 .slide-image{
+   
     height: 120px;
-    width: 250px;
+    width: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px;
+    padding: 1px;
     padding-bottom: 20px;
    
     padding-bottom: 30px;

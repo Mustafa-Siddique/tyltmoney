@@ -22,7 +22,7 @@ const Footer = () => {
                 <FaFacebook className='text-[30px]' />
                 </div>
                 <div>
-                    <button className=' border-solid border-2  shadow-lg '>
+                    <button className=' border-solid border-2  shadow-lg rounded-lg '>
                         Review us on 
                        <h1 className='w-[130px] p-2'>
                         <img src={footerlogo} alt="" /></h1> 
@@ -114,6 +114,13 @@ const Footer = () => {
                
                 </div>
             
+        </div>
+        <div className='container'>
+            <hr />
+           {/* <h1 className='text-gray-200 py-10 '>________________________________________________________________________________________________________________________________________________________________________________________________________________________________</h1>  */}
+            <p className='text-gray-400 py-10' >The data and information on this website are provided for informational purposes only and are not intended for reference or other purposes. All financial, statistical, and other relevant data regarding clients, merchants, conducted transactions, and related activities have been presented in aggregate form, derived from the operations of all legal entities under the Tylt brand. This includes TLX Labs Inc, TLX Labs Pte Ltd, TLX Labs India Pvt Ltd, Tylt Fintech Sp. z o.o., and VORTIMAN SP. Z O.O. The information provided reflects the combined activities of these entities and is subject to applicable laws and regulations in their respective jurisdictions. </p>
+            {/* <h1 className='text-gray-200 py-10'>________________________________________________________________________________________________________________________________________________________________________________________________________________________________</h1> */}
+        <hr className='' />
         </div>
     </div>
   )
