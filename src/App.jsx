@@ -27,7 +27,6 @@ const App = () => {
       <Trading/>
       <Email/>
       <Footer/>
-      
     </div>
   )
 }
