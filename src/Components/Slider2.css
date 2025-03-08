@@ -1,0 +1,6 @@
+.bodys{
+    max-height: 35vh;
+    display: grid;
+    place-items: center;
+    background-color: white;
+}

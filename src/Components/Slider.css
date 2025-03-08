@@ -1,0 +1,54 @@
+.body{
+    max-height: 35vh;
+    display: grid;
+    place-items: center;
+    background-color: aqua;
+}
+.cantainer{
+    height: 200px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+   
+}
+
+
+.slide-cantainer{
+    display: flex;
+    width: calc(250px *18);
+    animation: scroll 20s linear infinite;
+    margin-bottom: 40px;
+
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px*7));
+    }
+    
+}
+.slide-image{
+    height: 120px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    padding-bottom: 20px;
+   
+    padding-bottom: 30px;
+   
+}
+img{
+    width: 100%;
+}
+
+@media screen {
+    
+}

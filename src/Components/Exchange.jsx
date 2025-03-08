@@ -62,7 +62,7 @@ const Exchange = () => {
         <motion.button
          initial={{opacity:0 , y:100}} whileInView={{opacity:1, y:0}}
          transition={{
-           type:"spring",
+           type:"",
            stiffness:50,
            damping:10,
            delay:0.5,
