@@ -5,10 +5,6 @@ import { IoMdContact } from "react-icons/io";
 import { MdOutlineImportContacts } from "react-icons/md";
 import { FaUpRightAndDownLeftFromCenter } from "react-icons/fa6";
 
-
-
-
-
 const Buy = () => {
   return (
     <div className='bg-gray-100 py-20 mb-20' >
