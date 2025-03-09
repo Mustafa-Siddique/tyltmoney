@@ -14,7 +14,7 @@ const Home = () => {
               <motion.button
               initial={{opacity:0 , y:100}} animate={{opacity:1, y:0}}
               transition={{
-                type:"spring",
+                type:"",
                 stiffness:100,
                 damping:10,
                 delay:1.2,
@@ -23,7 +23,7 @@ const Home = () => {
               className='bg-gray-400 p-3  rounded-md'>P2P EXCHANGE</motion.button>
                 <motion.h1 initial={{opacity:0 , y:100}} animate={{opacity:1, y:0}}
                 transition={{
-                  type:"spring",
+                  type:"",
                   stiffness:100,
                   damping:10,
                   delay:1.2,
@@ -32,7 +32,7 @@ const Home = () => {
                 <motion.p 
                 initial={{opacity:0 , y:100}} animate={{opacity:1, y:0}}
                 transition={{
-                  type:"spring",
+                  type:"",
                   stiffness:100,
                   damping:10,
                   delay:1.2,
@@ -44,7 +44,7 @@ const Home = () => {
                       <motion.button 
                       initial={{opacity:0 , y:100}} animate={{opacity:1, y:0}}
                       transition={{
-                        type:"spring",
+                        type:"",
                         stiffness:100,
                         damping:10,
                         delay:1.2,
@@ -55,7 +55,7 @@ const Home = () => {
                 < motion.img 
                 initial={{opacity:0 , y:100}} animate={{opacity:1, y:0}}
                 transition={{
-                  type:"spring",
+                  type:"one time",
                   stiffness:100,
                   damping:10,
                   delay:1.5,

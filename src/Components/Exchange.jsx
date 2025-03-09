@@ -4,28 +4,33 @@ import imgg2 from '../assets/imgg2.avif'
 import imgg3 from '../assets/imgg3.avif'
 import { MdArrowForwardIos } from "react-icons/md";
 import {motion} from "framer-motion";
+import { RiTimeLine } from 'react-icons/ri';
 
 const Exchange = () => {
   return (
     <div>
     <div className='container '>
         <motion.div
-        initial={{opacity:0 , y:100}} whileInView={{opacity:1, y:0}}
+        initial={{opacity:0 , y:100}} animate={{opacity:1, y:0}}
         transition={{
-          type:"spring",
+          type:"slide",
           stiffness:100,
           damping:10,
-          delay:0.2,
+          delay:1.5,
         }}
+        // initial={{ y: -50, opacity: 0 }}
+        //   animate={{ y: 0, opacity: 1 }}
+        //   transition={{ duration: 0.5, delay: 0.2 }}
         className=' py-12 text-[40px] font-semibold'>Why choose Tylt’s <span className='text-green-500'>P2P Exchange?</span> </motion.div>
         <motion.div
-         initial={{opacity:0 , y:100}} whileInView={{opacity:1, y:0}}
+         initial={{opacity:0 , y:100}} animate={{opacity:1, y:0}}
          transition={{
-           type:"spring",
+           type:"slide ",
            stiffness:100,
            damping:10,
-           delay:0.5,
+           delay:1.5,
          }}
+        // transition={{ duration: 0.5, delay: 0.9 }}
         className='max-w-8xl  grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-6  '>
             <div className='p-6 bg-white rounded-xl shadow-md border border-solid border-2 border-black h-[130px] hover:scale-105 duration-100 '>
                 <h1 className='text-lg font-semibold'>Safety First with Escrow</h1>
@@ -60,13 +65,19 @@ const Exchange = () => {
             </div>
         </motion.div>
         <motion.button
-         initial={{opacity:0 , y:100}} whileInView={{opacity:1, y:0}}
+         initial={{opacity:0 , y:-50}} animate={{opacity:1, y:0}}
+         viewport={{  }}
+         
          transition={{
-           type:"",
-           stiffness:50,
+           type:"one time  ",
+           stiffness:100,
            damping:10,
-           delay:0.5,
+           delay:1.5,
+            
          }}
+        // initial={{ y: -50, opacity: 0 }}
+        //   animate={{ y: 0, opacity: 1 }}
+        //   transition={{ duration: 0.5, delay: 10.9 }}
         className='flex items-center p-3 bg-blue-500 mt-[40px] rounded-md shadow-md border text-lg font-semibold hover:bg-blue-300 '>TRADE NOW <MdArrowForwardIos /></motion.button>
     </div>
     </div>

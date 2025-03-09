@@ -21,7 +21,7 @@ const Navbar = () => {
      <motion.div
       initial={{opacity:0 , y:-100}} animate={{opacity:1, y:0}}
       transition={{
-        type:"spring",
+        type:"",
         stiffness:100,
         damping:10,
         delay:1.2,
