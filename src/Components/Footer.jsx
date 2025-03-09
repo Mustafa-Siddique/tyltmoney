@@ -16,10 +16,10 @@ const Footer = () => {
                     <img className='w-[150px]' src={logo} alt="" />
                 <p>Send and receive crypto payments effortlessly from anyone, anywhere in the world—with Tylt.</p>
                 <div className='flex gap-3 lg:gap-8'>
-                <FaLinkedin className='text-[30px] ' />
-                <FaInstagram className='text-[30px]' />
-                <FaYoutube className='text-[30px]' />
-                <FaFacebook className='text-[30px]' />
+                <a href=""><FaLinkedin className='text-[30px] ' /></a>
+                <a href=""><FaInstagram className='text-[30px]' /></a>
+                <a href=""><FaYoutube className='text-[30px]' /></a>
+                <a href=""><FaFacebook className='text-[30px]' /></a>
                 </div>
                 <div>
                     <button className=' border-solid border-2  shadow-lg rounded-lg '>
@@ -121,6 +121,10 @@ const Footer = () => {
             <p className='text-gray-400 py-10' >The data and information on this website are provided for informational purposes only and are not intended for reference or other purposes. All financial, statistical, and other relevant data regarding clients, merchants, conducted transactions, and related activities have been presented in aggregate form, derived from the operations of all legal entities under the Tylt brand. This includes TLX Labs Inc, TLX Labs Pte Ltd, TLX Labs India Pvt Ltd, Tylt Fintech Sp. z o.o., and VORTIMAN SP. Z O.O. The information provided reflects the combined activities of these entities and is subject to applicable laws and regulations in their respective jurisdictions. </p>
             {/* <h1 className='text-gray-200 py-10'>________________________________________________________________________________________________________________________________________________________________________________________________________________________________</h1> */}
         <hr className='' />
+        </div>
+        <div className='text-white'>
+            <p>© 2025 Tylt. All rights reserved.</p>
+            
         </div>
     </div>
   )
