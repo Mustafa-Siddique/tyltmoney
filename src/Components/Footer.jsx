@@ -120,8 +120,8 @@ const Footer = () => {
             <p className='text-gray-400 py-6 grid grid-cols-1' >The data and information on this website are provided for informational purposes only and are not intended for reference or other purposes. All financial, statistical, and other relevant data regarding clients, merchants, conducted transactions, and related activities have been presented in aggregate form, derived from the operations of all legal entities under the Tylt brand. This includes TLX Labs Inc, TLX Labs Pte Ltd, TLX Labs India Pvt Ltd, Tylt Fintech Sp. z o.o., and VORTIMAN SP. Z O.O. The information provided reflects the combined activities of these entities and is subject to applicable laws and regulations in their respective jurisdictions. </p>
         <hr className='w-auto' />
         </div>
-        <div className=' grid grid-cols-2 text-white container     lg: grid-cols-1  py-[45px]   '>
-        <div className='grid grid-cols-1 grid-cols' >
+        <div className=' grid grid-cols-2 text-white container     lg: grid-cols-  py-[45px]   '>
+        <div className='grid grid-cols-1 grid-cols ' >
             <p>© 2025 Tylt. All rights reserved.</p>
             </div>
             <div className=' gap-[1px] grid grid-cols-2 justify-between lg:grid-cols-5  '>

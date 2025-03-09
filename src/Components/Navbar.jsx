@@ -19,7 +19,7 @@ const Navbar = () => {
     <>
      <div className='bg-white  h-[70px]'>
      <motion.div
-      initial={{opacity:0 , y:-100}} animate={{opacity:1, y:0}}
+      initial={{opacity:0 , y:-100}} animate={{opacity:1, y:0} }
       transition={{
         type:"",
         stiffness:100,
