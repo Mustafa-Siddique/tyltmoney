@@ -27,13 +27,13 @@ const Navbar = () => {
         delay:1.2,
       }}
      className='flex justify-between container'>
-        <div className='flex gap-[60px]'>
+        <div className='flex gap-[60px] justify-center items-center'>
             <img className='w-[150px] ' src={logo} alt="" />
            
-        <ul  className='flex flex-row gap-5 hidden md:hidden lg:flex flex-row gap-5 mt-2 '>
-          <li><a href="">P2P Exchange</a></li>
-       <li className='text-gray-500'><a href="">BUSINESS</a></li>
-        <li className='text-gray-500'  ><a href="">Resources</a></li>
+        <ul  className='flex flex-row gap-5 hidden md:hidden lg:flex flex-row gap-5  '>
+          <li className='font-bold text-lg'><a href="">P2P EXCHANGE</a></li>
+       <li className='text-gray-500 text-lg'><a href="">BUSINESS</a></li>
+        <li className='text-gray-500 text-lg'  ><a href="">RESOURCES</a></li>
         
         </ul>
             </div> 
