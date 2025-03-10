@@ -66,8 +66,6 @@ const Exchange = () => {
         </motion.div>
         <motion.button
          initial={{opacity:0 , y:-50}} animate={{opacity:1, y:0}}
-         viewport={{  }}
-         
          transition={{
            type:"one time  ",
            stiffness:100,
