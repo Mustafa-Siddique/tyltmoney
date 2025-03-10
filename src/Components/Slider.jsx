@@ -12,7 +12,7 @@ const Slider = () => {
     <div class="body">
         <h1 className='text-[15px] px-10 font-semibold lg:text-[25px] pt-10  '>Supported Payment Methods</h1>
     
-        <div class="cantainer">
+        <div class="cantainer  ">
         <div class="slide-cantainer flex px-[100px] gap-[10px]">
             <div class="slide-image " className=''>
                <img className='w-[90px]' src={logo2} alt="" /> 

@@ -9,8 +9,8 @@ const Slider2 = () => {
      <div class="bodys">
             <h1 className='text-[15px] px-10 font-semibold lg:text-[25px] pt-10  '> Supported Coins and Networks</h1>
         
-            <div class="cantainer">
-            <div class="slide-cantainer flex px-[100px] gap-[10px]">
+            <div class="cantainer  ">
+            <div class="slide-cantainer flex px-[10px] gap-[10px] py-12">
                 <div class="slide-image">
                    <img className='w-[90px]' src={sliderimg} alt="" /> 
                 </div>

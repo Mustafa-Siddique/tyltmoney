@@ -3,6 +3,7 @@
     display: grid;
     place-items: center;
     background-color: aqua;
+    z-index: 0;
 }
 .cantainer{
     height: 200px;

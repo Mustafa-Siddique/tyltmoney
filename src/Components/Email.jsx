@@ -12,12 +12,12 @@ const Email = () => {
            <div className='flex flex-col justify-center ml-[5px]  lg:ml-[100px]'>
            <p className='py-2 text-sky-400' >Email</p>
             <div className='w-[200px] h-10 bg-white  border-solid border-2 border-black  lg:w-[298px] h-10'>
-            <input className='h-7 outline-none p-2 lg:h-9' type="Email" placeholder='Please enter your email' />
+            <input className='h-9 outline-none px-2 lg:h-9 w-[100%] ' type="Email" placeholder='Please enter your email' />
             </div>
            
            <p className='py-2 text-sky-400'>Country</p>
            <div className='w-[200px] h-10 bg-white border-solid border-2 border-black lg:w-[298px] h-10 '>
-            <input className='h-7  p-2 outline-none lg:h-9' type="Country" placeholder='Please enter your Country' />
+            <input className='h-9 outline-none px-2  lg:h-10  w-[100%]' type="Country" placeholder='Please enter your Country' />
             </div>
            <div>
            <button className=' py-2 px-5 rounded-md  items-center bg-sky-200 font-bold mt-3 shadow-md'>SUBSCRIBE</button>

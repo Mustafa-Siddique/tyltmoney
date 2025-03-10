@@ -17,7 +17,7 @@ const Navbar = () => {
   }
   return (
     <>
-     <div className='bg-white  h-[70px]'>
+     <div className='bg-white  h-[70px] '>
      <motion.div
       initial={{opacity:0 , y:-100}} animate={{opacity:1, y:0} }
       transition={{

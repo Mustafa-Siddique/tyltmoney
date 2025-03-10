@@ -37,17 +37,17 @@ const Buy = () => {
          }} 
         className='container grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 py-10'>
             <div className=' hover:scale-105 duration-100 mt-10'>
-            <IoMdContact className='text-[30px]' />
+            <IoMdContact className=' text-[50px] lg:text-[30px]' />
             <h1 className='font-bold text-lg text-gray-700 py-5' >First Mover Advantage</h1>
             <p className='font-semibold text-md text-gray-700'>Gain an edge by becoming a trusted trader early on, building your reputation and attracting more buyers.</p>
             </div>
             <div className=' hover:scale-105 duration-100 mt-10'>
-            <FaUpRightAndDownLeftFromCenter className='text-[30px]' />
+            <FaUpRightAndDownLeftFromCenter className='  text-[50px] lg:text-[30px]' />
             <h1 className='font-bold text-lg text-gray-700 py-5'>Exclusive Growth Opportunities</h1>
             <p className='font-semibold text-md text-gray-700'>Perform well and qualify for Tylt Prime, our premium platform offering institutional order flow and enhanced rewards.</p>
             </div>
             <div className=' hover:scale-105 duration-100 mt-10'>
-            <MdOutlineImportContacts className='text-[30px]' />
+            <MdOutlineImportContacts className='text-[50px] lg:text-[30px]' />
             <h1 className='font-bold text-lg text-gray-700 py-5'>Tailored Support for Success</h1>
             <p className='font-semibold text-md text-gray-700'>Unlock additional benefits like liquidity support, rebates, and OTC pricing based on your trading performance.</p>
             </div>
